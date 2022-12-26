@@ -1,1 +1,128 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: hsl(30, 38%, 92%);
 
+}
+/* .main{
+    width:100vw;
+    height: 100vh;
+    background-color: black;
+} */
+.container{
+    display: inline-flex;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    flex-wrap: wrap;
+    margin: 9% 18% 9% 21% ;
+   
+}
+.rightdiv{
+   width: 250px;
+   padding: 20px 30px 20px ;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: white;
+ 
+}
+.leftdiv{
+    width: 250px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    
+}
+.text1{
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 14px ;
+    margin: 0px 5px;
+}
+
+.imgclass{
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 300px;
+}
+.imgclass2{
+    display: none;
+}
+
+.grey{
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin: 5px;
+}
+.secondp{
+    
+    color:hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 28px ;
+    display: inline-block;
+    margin: 5px;
+  
+}
+.prize{
+    font-size: 25px;
+    color:hsl(158, 36%, 37%) ;
+    font-family: 'Fraunces', serif;
+    margin: 5px;
+}
+.prevprize{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration:line-through;
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.addToCart{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    background-color:hsl(158, 36%, 37%) ;
+    border: 0px solid hsl(158, 36%, 37%);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    padding: 0px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.attribution{
+    display: block ;
+    text-align: center;
+
+   
+}
+
+
+@media only screen and (max-width: 933px) {
+    .container{
+        margin: 9% 25%;
+    }
+   .imgclass2{
+    display: inline-block;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+  }
+  .imgclass{
+    display: none;
+  }
+  .rightdiv{
+    padding: 20px 5px  ;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  .leftdiv{
+    border-bottom-left-radius: 0px;
+  }
+}   
