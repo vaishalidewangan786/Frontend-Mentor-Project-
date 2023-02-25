@@ -32,7 +32,7 @@ Users should be able to:
 ![](./design/mobile-design.jpg)
 ### Links
 
-- Live Site URL: [Click to see](https://itsme-shivamkumar.github.io/Product-preview-card-component/)
+- Live Site URL: [Click to see](https://vaishalidewangan786.github.io/product-preview/)
 
 ## My process
 
